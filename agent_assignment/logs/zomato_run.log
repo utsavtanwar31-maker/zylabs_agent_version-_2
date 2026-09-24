@@ -1,0 +1,18 @@
+Starting research on Zomato...
+[agent] search_company_website_strict({"company_name": "Zomato"})
+   -> Found matching domain: https://www.zomato.com
+[agent] fetch_page({"url": "https://www.zomato.com"})
+[agent] search_web({"query": "Zomato case study"})
+[agent] verify_and_save_evidence({"topic": "offering", "claim": "Zomato provides a food delivery app for ordering meals.", "exact_quote": "India\u2019s #1 food delivery app", "source_)
+   -> Success! Evidence saved with ID 7b3e7a18
+[agent] search_web({"query": "Zomato case study restaurant partner hyperpure"})
+[agent] fetch_page({"url": "https://www.hyperpure.com"})
+[agent] fetch_page({"url": "https://www.markhub24.com/post/zomato-hyperpure-s-restaurant-supply-platform-model"})
+[agent] search_web({"query": "Zomato case study restaurant partner hyperpure case study"})
+[agent] search_web({"query": "Zomato case study restaurant partner hyperpure case study example"})
+[agent] fetch_page({"url": "https://www.zomato.com/blog/decoding-hyperpure"})
+[agent] verify_and_save_evidence({"topic": "offering", "claim": "Zomato offers Hyperpure, a complete supply chain solution for restaurants.", "exact_quote": "hyperpure Offering comple)
+   -> Success! Evidence saved with ID f1feacc0
+--- GENERATING PROFILE ---
+Profile saved to zomato_profile.md
+Done!
